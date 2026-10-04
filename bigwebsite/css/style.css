@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  min-width: 2500px;
+  min-height: 2500px;
+  overflow: auto;
+  background-color: #3b2a12;
+}
+
+#map {
+  position: relative;
+  width: 2500px;
+  height: 2500px;
+  background-color: #e7d3a1;
+  border: 12px double #5a3e1b;
+}
+
+#title {
+  margin: 40px 0 0 120px;
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  color: #5a3e1b;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.spot {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.spot img {
+  width: 120px;
+}
+
+.place {
+  margin: 0;
+  padding: 8px;
+  font-family: "Courier New", monospace;
+  font-size: 22px;
+  font-weight: bold;
+  color: #3b2a12;
+  border: 2px dashed #5a3e1b;
+  text-align: center;
+}
+
+#skull  { top: 150px;  left: 900px; }
+#bay    { top: 200px;  left: 1700px; }
+#swamp  { top: 900px;  left: 1700px; }
+#cave   { top: 1750px; left: 900px; }
+
+.sea {
+  position: absolute;
+  background-color: #6fa8b8;
+  border: 3px solid #3c7a8c;
+  opacity: 0.6;
+}
+
+#bay-water {
+  top: 100px;
+  left: 1600px;
+  width: 700px;
+  height: 450px;
+}
+
+.x {
+  margin: 0;
+  font-size: 80px;
+  font-weight: bold;
+  color: #a3201a;
+}
+
+#fake-x {
+  position: absolute;
+  top: 1200px;
+  left: 1200px;
+}
+
+#treasure-spot { top: 2250px; left: 2100px; }
+
+#chest {
+  width: 150px;
+}
+
+.taunt {
+  position: absolute;
+  margin: 0;
+  width: 260px;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  font-style: italic;
+  color: #3b2a12;
+}
+
+#fake-taunt {
+  top: 1225px;
+  left: 1290px;
+}
+
+.red {
+  color: #a3201a;
+  font-weight: bold;
+  text-decoration: underline;
+}
