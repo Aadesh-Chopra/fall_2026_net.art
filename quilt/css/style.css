@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 100vw;
+  height: 100vh;
+}
+
+.red {
+  background-color: crimson;
+}
+
+.blue {
+  background-color: royalblue;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.green {
+  background-color: seagreen;
+}
+
+.circle {
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.faded {
+  background-color: purple;
+  opacity: 0.5;
+}
+
+.big {
+  background-color: navy;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
