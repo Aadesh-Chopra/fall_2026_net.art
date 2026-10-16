@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lights Out</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Lights Out</h1>
+    <p class="hint">Hover over the track (or tab to it) to start the race. Press and hold to go faster.</p>
+
+    <div class="track" tabindex="0" aria-label="Race track. Hover or focus to start the race.">
+      <div class="lights">
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+        <div class="light"></div>
+      </div>
+
+      <div class="road-line"></div>
+
+      <div class="car">
+        <div class="wing"></div>
+        <div class="body"></div>
+        <div class="cockpit"></div>
+        <div class="wheel"></div>
+        <div class="wheel"></div>
+      </div>
+    </div>
+
+    <p class="status">Five red lights, then go.</p>
+  </main>
+</body>
+</html>
